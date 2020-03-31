@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB300</color>
+    <color name="colorPrimaryDark">#FF8F00</color>
+    <color name="colorAccent">#FFC400</color>
+    <color name="white">#FFFFFF</color>
+    <color name="SuccessAlert">#4CAF50</color>
+    <color name="FailuerAlert">#D50000</color>
+    <color name="red">#D50000</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2962FF</color>
+    <color name="bacground_color">#521EBA</color>
+
+
+
+    <color name="color_screen_background">#242222</color>
+    <color name="color_screen_background_white">#F8F8F8</color>
+    <color name="color_white">#fff</color>
+    <color name="color_white_shade">#EBE5E5</color>
+    <color name="color_btn_background">#FFD332</color>
+    <color name="bgBottomNavigation">#000</color>
+    <color name="bgDisplayDateTime">#5C5555</color>
+    <color name="color_black">#000</color>
+    <color name="jazz_red">#780103</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="60dp"
+    android:clipToPadding="false">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar_profile_group"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/group_user_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignLeft="@id/avatar_profile_group"
+        android:layout_below="@id/avatar_profile_group"
+        android:layout_toRightOf="@+id/avatar_profile_group"
+        android:paddingBottom="4dp"
+        android:text="Rose" />
+    <FrameLayout
+        android:id="@+id/frame_video_image"
+        android:padding="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="right"
+        android:visibility="gone"
+        android:background="@drawable/my_image_thumbnail"
+        android:layout_alignParentRight="true"
+        android:layout_height="270dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/img_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:layout_marginBottom="30dp"
+            />
+
+        <VideoView
+            android:id="@+id/vdo_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_user_message_single"
+        android:background="@drawable/my_message"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_alignBottom="@id/frame_video_image"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:text="Placeholder message"
+        />
+    <TextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/txt_user_time_single"
+        android:text="Time Slot"
+        android:textSize="14sp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/txt_user_message_single"
+        android:layout_alignEnd="@id/txt_user_message_single"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt_user_message_single" />
+
+</RelativeLayout>
+
+
+
+
+</LinearLayout>
